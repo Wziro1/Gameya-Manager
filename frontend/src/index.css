@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0F172A;      /* Navy */
+  --color-accent: #10B981;       /* Emerald */
+  --color-accent-dark: #059669;  /* hover shade for accent */
+  --color-surface: #F8FAFC;      /* Light gray */
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-primary);
+}
